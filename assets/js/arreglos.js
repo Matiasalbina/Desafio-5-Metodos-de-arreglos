@@ -58,9 +58,7 @@ let tasks = [
       tasks.push(newTask);
       taskInput.value = "";
       renderTasks();
-    } else {
-      alert("Por favor ingresa una descripción para la tarea.");
-    }
+    } 
   }
   
   function toggleTask(taskId) {
